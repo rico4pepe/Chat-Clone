@@ -1,9 +1,17 @@
+import ChatComponent from "./compoents/ChatComponent";
+import Sidebar from "./compoents/Sidebar";
+import './App.css';
 
 
 function App() {
   return (
-    <div className="App">
-    <h1> Whatsapp Clone </h1>
+    <div className="app">
+      <div className="app__body">
+      <Sidebar />
+
+        <ChatComponent />
+      </div>
+   
     </div>
   );
 }
